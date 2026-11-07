@@ -64,13 +64,6 @@ img{
     border-top: 2px;
     text-align: center;
 }
-.cafes,
-.Postres,
-.Comida{
-    width: 250px;
-    padding: 10px;
-    text-align: center;
-}
 form{
     background-color: aliceblue;
     padding: 25x;
