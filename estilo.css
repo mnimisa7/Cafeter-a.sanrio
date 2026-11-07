@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(206, 221, 237);
+    background-color: rgb(172, 199, 227);
     font-family: 'Times New Roman', Times, serif;
     color: pink;
     text-align: center;
@@ -26,7 +26,7 @@ h1{
     font-family: 'Times New Roman', Times, serif; 
     font-size: 30px;
     text-align: center;
-    text-shadow: 2px 2px beige;
+    text-shadow: 2px 2px bisque;
     border-bottom: 3px;
     margin: 25px auto;
     display: table;
