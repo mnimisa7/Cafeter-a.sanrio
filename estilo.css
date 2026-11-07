@@ -1,150 +1,90 @@
 body {
-    background-color: #c5e4f7;
-        font-family: Arial, sans-serif;
-            color: #79566b;
-                text-align: center;
-                    margin: 0;
-                        padding: 20px;
-                        }
-
-                        
-                        nav {
-                            padding: 15px;
-                                margin-bottom: 30px;
-                                    border-bottom: 3px solid #b9ddf5;
-                                    }
-
-                                    nav a {
-                                        color: #d96b9c;
-                                            text-decoration: none;
-                                                font-size: 18px;
-                                                    font-weight: bold;
-                                                        margin: 15px;
-                                                        }
-
-                                                        nav a:hover {
-                                                            color: #8bb9dc;
-                                                                text-decoration: underline;
-                                                                }
-
-                                                                
-                                                                h1 {
-                                                                    color: #df78a5;
-                                                                        font-size: 32px;
-                                                                            text-align: center;
-                                                                                text-shadow: 2px 2px white;
-                                                                                    border-bottom: 3px solid #b9ddf5;
-                                                                                        padding-bottom: 12px;
-                                                                                            display: table;
-                                                                                                margin: 30px auto;
-                                                                                                }
-
-                                                                                            
-                                                                                                h2 {
-                                                                                                    color: #ad7bc9;
-                                                                                                        font-size: 26px;
-                                                                                                            text-align: center;
-                                                                                                                border-bottom: 2px solid #c5e4f7;
-                                                                                                                    padding-bottom: 10px;
-                                                                                                                        
-                                                                                                                            margin: 25px auto;
-                                                                                                                            }
-
-                                                                                                                            
-                                                                                                                            h3 {
-                                                                                                                                color: #d875a1;
-                                                                                                                                    font-size: 21px;
-                                                                                                                                    }
-
-                                                                                                                                    
-                                                                                                                                    p {
-                                                                                                                                        font-size: 17px;
-                                                                                                                                            line-height: 1.6;
-                                                                                                                                                text-align: center;
-                                                                                                                                                }
-
-                                                                                                                                                
-                                                                                                                                                img {
-                                                                                                                                                    display: block;
-                                                                                                                                                        margin: 15px auto;
-                                                                                                                                                            max-width: 100%;
-                                                                                                                                                                
-                                                                                                                                                                }
-
-                                                                                                                                                                
-                                                                                                                                                                .cafes,
-                                                                                                                                                                .Postres,
-                                                                                                                                                                .Comida {
-                                                                                                                                                                    display: flex;
-                                                                                                                                                                        justify-content: center;
-                                                                                                                                                                            align-items: center;
-                                                                                                                                                                                flex-wrap: wrap;
-                                                                                                                                                                                    gap: 35px;
-                                                                                                                                                                                        margin: 25px auto;
-                                                                                                                                                                                            padding-top: 20px;
-                                                                                                                                                                                                border-top: 2px solid #c5e4f7;
-                                                                                                                                                                                                    text-align: center;
-                                                                                                                                                                                                    }
-
-                                                                                                                                                                                                    
-                                                                                                                                                                                                    .cafes > div,
-                                                                                                                                                                                                    .Postres > div,
-                                                                                                                                                                                                    .Comida > div {
-                                                                                                                                                                                                        width: 250px;
-                                                                                                                                                                                                            padding: 10px;
-                                                                                                                                                                                                                text-align: center;
-                                                                                                                                                                                                                }
-
-                                                                                                                                                                                                                
-                                                                                                                                                                                                                .cafes img,
-                                                                                                                                                                                                                .Postres img,
-                                                                                                                                                                                                                .Comida img {
-                                                                                                                                                                                                                    width: 150px;
-                                                                                                                                                                                                                        height: 150px;
-                                                                                                                                                                                                                         
-                                                                                                                                                                                                                            }
-
-                                                                                                                                                                                                                            
-                                                                                                                                                                                                                            .cafes p:nth-of-type(2),
-                                                                                                                                                                                                                            .Postres p:nth-of-type(2),
-                                                                                                                                                                                                                            .Comida p:nth-of-type(2) {
-                                                                                                                                                                                                                                color: #d96b9c;
-                                                                                                                                                                                                                                    font-weight: bold;
-                                                                                                                                                                                                                                        font-size: 19px;
-                                                                                                                                                                                                                                        }
-
-                                                                                                                                                                                                                                        
-                                                                                                                                                                                                                                        form {
-                                                                                                                                                                                                                                            background-color: #fff7fb;
-                                                                                                                                                                                                                                                padding: 25px;
-                                                                                                                                                                                                                                                    max-width: 400px;
-                                                                                                                                                                                                                                                        margin: 25px auto;
-                                                                                                                                                                                                                                                        }
-
-                                                                                                                                                                                                                                                        label {
-                                                                                                                                                                                                                                                            color: #d96b9c;
-                                                                                                                                                                                                                                                                font-weight: bold;
-                                                                                                                                                                                                                                                                    font-size: 17px;
-                                                                                                                                                                                                                                                                    }
-
-                                                                                                                                                                                                                                                                    
-                                                                                                                                                                                                                                                                    input[type="text"] {
-                                                                                                                                                                                                                                                                        padding: 10px;
-                                                                                                                                                                                                                                                                            width: 85%;
-                                                                                                                                                                                                                                                                                border: 1px solid #b9ddf5;
-                                                                                                                                                                                                                                                                                    font-size: 15px;
-                                                                                                                                                                                                                                                                                    }
-
-                                                                                                                                                                                                                                                                                    
-                                                                                                                                                                                                                                                                                    input[type="submit"] {
-                                                                                                                                                                                                                                                                                        background-color: #a9d5f0;
-                                                                                                                                                                                                                                                                                            color: white;
-                                                                                                                                                                                                                                                                                                padding: 12px 25px;
-                                                                                                                                                                                                                                                                                                 
-                                                                                                                                                                                                                                                                                                        font-size: 16px;
-                                                                                                                                                                                                                                                                                            
-                                                                                                                                                                                                                                                                                                            }
-
-                                                                                                                                                                                                                                                                                                            input[type="submit"]:hover {
-                                                                                                                                                                                                                                                                                                                background-color: #c7b0e8;
-                                                                                                                                                                                                                                                                                                                }
+    background-color: rgb(153, 187, 224);
+    font-family: 'Times New Roman', Times, serif;
+    color: pink;
+    text-align: center;
+    padding: 20px;
+}
+nav{
+    padding: 10px;
+    margin-bottom: 25px;
+    border-bottom: 3px
+}
+nav a{
+    color: pink;
+    text-decoration: underline;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px auto;
+}
+nav a{
+    color: pink;
+    text-decoration: underline;
+}
+h1{
+    color: palevioletred;
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 2px 2px beige;
+    border-bottom: 3px;
+    margin: 25px auto;
+    display: table;
+}
+h2{
+    color: pink;
+    text-align: center;
+    font-size: 25px;
+   padding-bottom: 10px;
+   display: table;
+   margin: 20px auto;
+}
+h3{
+    color: pink;
+    font-size: 20px;
+}
+p{
+    font-size: 20px;
+    line-height: normal;
+    text-align: center;
+}
+img{
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+form{
+    background-color: aliceblue;
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+}
+label{
+    color: bisque;
+    font-weight: bold;
+    font-size: 15px;
+}
+input[type="text"],
+input[type="email"]{
+    padding: 10px;
+    width: 80px;
+    border: 1px;
+    font-size: 15px;
+    margin: 10px;
+}
+input[type="submit"]{
+    background-color: beige;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: bisque;
+}
+footer{
+    padding: 20px;
+    margin-top: 30px;
+    border-top: 2px;
+}
