@@ -11,14 +11,14 @@ nav{
     border-bottom: 3px
 }
 nav a{
-    color: pink;
+    color: palevioletred;
     text-decoration: underline;
     font-size: 18px;
     font-weight: bold;
     margin: 15px auto;
 }
 nav a{
-    color: pink;
+    color: palevioletred;
     text-decoration: underline;
 }
 h1{
@@ -32,7 +32,7 @@ h1{
     display: table;
 }
 h2{
-    color: pink;
+    color: purple;
     text-align: center;
     font-size: 25px;
    padding-bottom: 10px;
@@ -40,7 +40,7 @@ h2{
    margin: 20px auto;
 }
 h3{
-    color: pink;
+    color: rgb(138, 108, 179);
     font-size: 20px;
 }
 p{
