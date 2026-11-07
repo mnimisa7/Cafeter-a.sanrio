@@ -54,6 +54,23 @@ img{
     max-width: 100%;
     height: auto;
 }
+.cafes,
+.Postres,
+.Comida{
+    display: flex;
+    justify-content: center;
+    margin: 25px auto;
+    padding-top: 20px;
+    border-top: 2px;
+    text-align: center;
+}
+.cafes,
+.Postres,
+.Comida{
+    width: 250px;
+    padding: 10px;
+    text-align: center;
+}
 form{
     background-color: aliceblue;
     padding: 25x;
